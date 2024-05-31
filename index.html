@@ -16,15 +16,19 @@
         .about-me {
             max-width: 800px;
             margin: 0 auto;
-            text-align: center;
-        }
-        .about-me p {
+            display: flex;
+            align-items: center;
             text-align: justify;
         }
         .about-me img {
-            display: block;
-            margin: 0 auto;
             border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin-right: 2rem;
+        }
+        .about-me div {
+            flex: 1;
         }
         .slider {
             position: relative;
@@ -214,10 +218,12 @@
     </div>
     <div class="container">
         <div id="about" class="about-me section">
-            <h2>About Me</h2>
-            <img src="img/Alizade3.png" alt="Mostafa Alizadeh" style="width: 250px; height: 250px; object-fit: cover;">
-            <p>Hello! I'm Mostafa Alizadeh, a professional wrestler passionate about competing and inspiring others through my journey in the sport. From a young age, I've dedicated countless hours to training, which has instilled in me the values of discipline and perseverance.</p> 
-            <p>My hard work has led to multiple national championships and medals in prestigious international tournaments. Wrestling is more than just a sport to me; it's a way of life that has shaped my character. As I train for the upcoming Olympic Games, I am committed to pushing my limits and achieving new milestones, while also giving back to the community by conducting training sessions for young wrestlers. My ultimate goal is to inspire the next generation and leave a lasting legacy in the world of wrestling.</p>
+            <img src="img/Alizade3.png" alt="Mostafa Alizadeh">
+            <div>
+                <h2>About Me</h2>
+                <p>Hello! I'm Mostafa Alizadeh, a professional wrestler passionate about competing and inspiring others through my journey in the sport. From a young age, I've dedicated countless hours to training, which has instilled in me the values of discipline and perseverance.</p> 
+                <p>My hard work has led to multiple national championships and medals in prestigious international tournaments. Wrestling is more than just a sport to me; it's a way of life that has shaped my character. As I train for the upcoming Olympic Games, I am committed to pushing my limits and achieving new milestones, while also giving back to the community by conducting training sessions for young wrestlers. My ultimate goal is to inspire the next generation and leave a lasting legacy in the world of wrestling.</p>
+            </div>
         </div>
         <div id="projects" class="section projects">
             <h2>Coach Mostafa</h2>
@@ -274,7 +280,6 @@
         </div>
     </div>
     <footer>
-        
         <div class="social-media">
             <a href="https://www.facebook.com/mostafa.alizadeh.180" target="_blank">
                 <img src="img/facebook.jfif" alt="Facebook">
