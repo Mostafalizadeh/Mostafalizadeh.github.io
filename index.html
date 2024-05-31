@@ -128,16 +128,16 @@
             justify-content: center;
         }
         .portfolio .portfolio-item {
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 1rem;
-            width: calc(33.333% - 2rem);
+            position: relative;
             overflow: hidden;
+            width: calc(33.333% - 2rem);
             border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .portfolio .portfolio-item img {
             width: 100%;
-            height: auto;
+            height: 100%;
+            object-fit: cover;
             display: block;
         }
         .portfolio .portfolio-item h3 {
