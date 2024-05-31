@@ -16,10 +16,10 @@
         .about-me {
             max-width: 800px;
             margin: 0 auto;
-            text-align: center-justify;
+            text-align: justify;
         }
         .about-me p {
-            text-align: center-justify;
+            text-align: justify;
         }
         .slider {
             position: relative;
@@ -157,19 +157,19 @@
             padding: 1rem 0;
         }
         .social-media {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-    }
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
         .social-media a img {
-        width: 30px;
-        height: 30px;
-        transition: transform 0.3s;
-    }
+            width: 30px;
+            height: 30px;
+            transition: transform 0.3s;
+        }
         .social-media a img:hover {
-        transform: scale(1.2);
-    }
+            transform: scale(1.2);
+        }
     </style>
 </head>
 <body>
@@ -191,12 +191,11 @@
         <a href="#contact">Contact</a>
     </div>
     <div class="container">
-        <div class="about-me" id="about" class="section about">
+        <div id="about" class="about-me section">
             <h2>About Me</h2>
             <img src="img/Alizade3.png" alt="Mostafa Alizadeh" style="border-radius: 50%; width: 250px; height: 250px; object-fit: cover;">
             <p>Hello! I'm Mostafa Alizadeh, a professional wrestler passionate about competing and inspiring others through my journey in the sport. From a young age, I've dedicated countless hours to training, which has instilled in me the values of discipline and perseverance.</p> 
             <p>My hard work has led to multiple national championships and medals in prestigious international tournaments. Wrestling is more than just a sport to me; it's a way of life that has shaped my character. As I train for the upcoming Olympic Games, I am committed to pushing my limits and achieving new milestones, while also giving back to the community by conducting training sessions for young wrestlers. My ultimate goal is to inspire the next generation and leave a lasting legacy in the world of wrestling.</p>
-
         </div>
         <div id="projects" class="section projects">
             <h2>Projects</h2>
@@ -243,6 +242,14 @@
     </div>
     <footer>
         <p>&copy; 2024 Mostafa Alizadeh. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://twitter.com/mostafa_alizadeh" target="_blank">
+                <img src="img/twitter-icon.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com/mostafa_alizadeh" target="_blank">
+                <img src="img/instagram-icon.png" alt="Instagram">
+            </a>
+        </div>
     </footer>
 
     <script>
@@ -268,17 +275,5 @@
 
         setInterval(nextSlide, 4000); // Change slide every 4 seconds
     </script>
-    
-    <div class="social-media">
-    <a href="https://twitter.com/mostafa_alizadeh" target="_blank">
-        <img src="img/twitter-icon.png" alt="Twitter" style="width: 30px; height: 30px;">
-    </a>
-    <a href="https://instagram.com/mostafa_alizadeh" target="_blank">
-        <img src="img/instagram-icon.png" alt="Instagram" style="width: 30px; height: 30px;">
-    </a>
-</div>
-
-
-    
 </body>
 </html>
