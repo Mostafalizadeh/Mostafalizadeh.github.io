@@ -15,17 +15,16 @@
         }
         .about-me {
             max-width: 800px;
-            text-align: justify;
-            align-items: center;
+            margin: 0 auto;
+            text-align: center;
         }
         .about-me p {
             text-align: justify;
-            align-items: center;
         }
         .about-me img {
             display: block;
             margin: 0 auto;
-            align-items: center;
+            border-radius: 50%;
         }
         .slider {
             position: relative;
@@ -176,6 +175,20 @@
         .social-media a img:hover {
             transform: scale(1.2);
         }
+        .columns {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .column {
+            flex: 1;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -185,7 +198,6 @@
             <div class="slide" style="background-image: url('img/Alizadeh2.png');"></div>
             <div class="slide" style="background-image: url('img/Alizade3.png');"></div>
             <div class="slide" style="background-image: url('img/Alizadeh7.png');"></div>
-
         </div>
         <div class="slider-nav">
             <button onclick="prevSlide()">❮</button>
@@ -201,35 +213,34 @@
     <div class="container">
         <div id="about" class="about-me section">
             <h2>About Me</h2>
-            <img src="img/Alizade3.png" alt="Mostafa Alizadeh" style="border-radius: 50%; width: 250px; height: 250px; object-fit: cover;">
+            <img src="img/Alizade3.png" alt="Mostafa Alizadeh" style="width: 250px; height: 250px; object-fit: cover;">
             <p>Hello! I'm Mostafa Alizadeh, a professional wrestler passionate about competing and inspiring others through my journey in the sport. From a young age, I've dedicated countless hours to training, which has instilled in me the values of discipline and perseverance.</p> 
             <p>My hard work has led to multiple national championships and medals in prestigious international tournaments. Wrestling is more than just a sport to me; it's a way of life that has shaped my character. As I train for the upcoming Olympic Games, I am committed to pushing my limits and achieving new milestones, while also giving back to the community by conducting training sessions for young wrestlers. My ultimate goal is to inspire the next generation and leave a lasting legacy in the world of wrestling.</p>
         </div>
         <div id="projects" class="section projects">
             <h2>Coach Mostafa</h2>
-            <ul>
+            <div class="columns">
+                <div class="column">
                     <h3>Medals</h3>
-                    <p>
-                        <ul>
-                            <li>3X Iran National Champion (senior and U23) </li>
-                            <li>2X U23 and Ul 7 world Medalist </li>
-                            <li>Asian Gold Medalist</li>
-                            <li>7X Iran Asian Team Coach (Ul 7 & U20) 2012-2019</li>
-                            <li>SX Iran World Team Coach (Ul 7 & U20) 2012-2019</li>
-                        </ul>
-                    </p>
-          
+                    <ul>
+                        <li>3X Iran National Champion (senior and U23)</li>
+                        <li>2X U23 and Ul 7 world Medalist</li>
+                        <li>Asian Gold Medalist</li>
+                        <li>7X Iran Asian Team Coach (Ul 7 & U20) 2012-2019</li>
+                        <li>SX Iran World Team Coach (Ul 7 & U20) 2012-2019</li>
+                    </ul>
+                </div>
+                <div class="column">
                     <h3>Activities</h3>
-                    <p>
-                        <ul>
-                            <li>Training for coaches </li>
-                            <li>Wrestling Seminar  </li>
-                            <li>Summer Camps</li>
-                            <li>One on one private lessons</li>
-                            <li>Freestyle and folkstyle, MMA-focused training </li>
-                        </ul>
-                    </p>
-
+                    <ul>
+                        <li>Training for coaches</li>
+                        <li>Wrestling Seminar</li>
+                        <li>Summer Camps</li>
+                        <li>One on one private lessons</li>
+                        <li>Freestyle and folkstyle, MMA-focused training</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div id="portfolio" class="section portfolio">
             <h2>Portfolio</h2>
@@ -244,10 +255,10 @@
                     <img src="img/Alizade6.png" alt="Coaching Mostafa Alizadeh">
                 </div>
                 <div class="portfolio-item">
-                    <img src="img/Alizade9.png" alt="Mostafa Alizadeh">
+                    <img src="img/Alizadeh9.png" alt="Mostafa Alizadeh">
                 </div>
                 <div class="portfolio-item">
-                    <img src="img/Alizade10.png" alt=" Mostafa Alizadeh">
+                    <img src="img/Alizadeh10.png" alt=" Mostafa Alizadeh">
                 </div>
                 <div class="portfolio-item">
                     <img src="img/Alizade11.png" alt=" Mostafa Alizadeh">
