@@ -148,6 +148,20 @@
             text-align: center;
             padding: 1rem 0;
         }
+        .social-media {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+        .social-media a img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s;
+    }
+        .social-media a img:hover {
+        transform: scale(1.2);
+    }
     </style>
 </head>
 <body>
@@ -171,7 +185,7 @@
     <div class="container">
         <div id="about" class="section about">
             <h2>About Me</h2>
-            <img src="img/Alizade3.png" alt="Mostafa Alizadeh" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+            <img src="img/Alizade3.png" alt="Mostafa Alizadeh" style="border-radius: 50%; width: 250px; height: 250px; object-fit: cover;">
             <p>Hello! I'm Mostafa Alizadeh, a professional wrestler passionate about competing and inspiring others through my journey in the sport. From a young age, I've dedicated countless hours to training, which has instilled in me the values of discipline and perseverance.</p> 
             <p>My hard work has led to multiple national championships and medals in prestigious international tournaments. Wrestling is more than just a sport to me; it's a way of life that has shaped my character. As I train for the upcoming Olympic Games, I am committed to pushing my limits and achieving new milestones, while also giving back to the community by conducting training sessions for young wrestlers. My ultimate goal is to inspire the next generation and leave a lasting legacy in the world of wrestling.</p>
 
@@ -252,5 +266,17 @@
 
         setInterval(nextSlide, 4000); // Change slide every 4 seconds
     </script>
+    
+    <div class="social-media">
+    <a href="https://twitter.com/mostafa_alizadeh" target="_blank">
+        <img src="img/twitter-icon.png" alt="Twitter" style="width: 30px; height: 30px;">
+    </a>
+    <a href="https://instagram.com/mostafa_alizadeh" target="_blank">
+        <img src="img/instagram-icon.png" alt="Instagram" style="width: 30px; height: 30px;">
+    </a>
+</div>
+
+
+    
 </body>
 </html>
